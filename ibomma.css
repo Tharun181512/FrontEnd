@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     outline: 0;
+     box-sizing: border-box;
+     font-family: 'Montserrat', sans-serif
+}
+body{
+    background: white;
+    overflow-x: hidden;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+nav{
+    background: white;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    height: 50px;
+    padding: 0 100px;
+}
+nav .logo{
+    cursor: pointer;
+    width: 120px;
+    margin-top: 50px;
+}
+nav .nav-items{
+    display: flex;
+    flex: 1;
+    padding: 30px;
+    margin-left: 320px;
+}
+nav .nav-items a{
+    color: brown;
+    font-size: 20px;
+    font-weight: 510;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 15px;
+}
+nav .nav-items a i{
+    color: green;
+    padding: 5px;
+}
+nav form{
+    display: flex;
+    height: 40px;
+    padding: 10px;
+    background: black;
+    min-width: 18%;
+    border-radius: 20px;
+    border: 1px solid rgba(155, 155, 155, 0.2)
+}
+nav form .search-data{
+    width: 80%;
+    height: 90%;
+    padding: 0 10px;
+    color: black;
+    font-size: 17px;
+    border: none;
+    font-weight: 500;
+    background: none;
+}
+nav form button{
+    padding: 0 15px;
+    color: white;
+    font-size: 17px;
+    background: green;
+    border: none;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    cursor: pointer;
+}
+nav form button:hover{
+    background: green;
+}
+.content{
+    margin-top: 30px;
+    text-align: center;
+    color: black;
+}
+.content h1{
+    justify-content: space-between;
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content{
+    margin-top: 30px;
+
+} 
+.content p i{
+    color:green; 
+}
+.movie-items{
+    width: 100%;
+    height: 10%;
+    margin-top: 30px;
+    padding: 20px;
+}
+.column{
+    float: left;
+    width: 16.66%;
+    cursor: pointer;
+}
+.row::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+.background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20%;
+}
+.image-container {
+    display: flex;
+}
+.movie-items{
+    display: flex;
+    justify-content: space-around;
+}
+.row{
+    width: 100%;
+    height: 100%;
+    
+}
+.image{
+    height: 400px;
+    object-fit: cover;
+    padding: 10px 10px;
+}
+.row h1{
+    padding: 10px 10px;
+}
+.row p{
+    padding: 10px 10px;
+}
+
+
+
